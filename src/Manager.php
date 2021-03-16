@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk;
+namespace RamPall\LaravelConsoleDusk;
 
 use Closure;
 use Illuminate\Console\Command;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ConsoleBrowserFactoryContract;
-use NunoMaduro\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ManagerContract;
-use NunoMaduro\LaravelConsoleDusk\Drivers\Chrome;
+use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserFactoryContract;
+use RamPall\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
+use RamPall\LaravelConsoleDusk\Contracts\ManagerContract;
+use RamPall\LaravelConsoleDusk\Drivers\Chrome;
 
 class Manager implements ManagerContract
 {

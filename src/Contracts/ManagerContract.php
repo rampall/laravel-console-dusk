@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk\Contracts;
+namespace RamPall\LaravelConsoleDusk\Contracts;
 
 use Closure;
 use Illuminate\Console\Command;

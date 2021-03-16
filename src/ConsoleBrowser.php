@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk;
+namespace RamPall\LaravelConsoleDusk;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Laravel\Dusk\Browser;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
+use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
 
 class ConsoleBrowser implements ConsoleBrowserContract
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk\Contracts\Drivers;
+namespace RamPall\LaravelConsoleDusk\Contracts\Drivers;
 
 interface DriverContract
 {

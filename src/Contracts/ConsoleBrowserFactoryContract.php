@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk\Contracts;
+namespace RamPall\LaravelConsoleDusk\Contracts;
 
 use Illuminate\Console\Command;
-use NunoMaduro\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
+use RamPall\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
 
 interface ConsoleBrowserFactoryContract
 {

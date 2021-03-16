@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk;
+namespace RamPall\LaravelConsoleDusk;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Dusk\Browser;
 use Laravel\Dusk\Console\ChromeDriverCommand;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ManagerContract;
+use RamPall\LaravelConsoleDusk\Contracts\ManagerContract;
 
 class LaravelConsoleDuskServiceProvider extends ServiceProvider
 {
@@ -25,8 +25,10 @@ class LaravelConsoleDuskServiceProvider extends ServiceProvider
             $manager = resolve(ManagerContract::class);
 
             Browser::$baseUrl = config('app.url');
-            Browser::$storeScreenshotsAt = $this->getPath(config('laravel-console-dusk.paths.screenshots'));
-            Browser::$storeConsoleLogAt = $this->getPath(config('laravel-console-dusk.paths.log'));
+            $path = config('laravel-console-dusk.paths.screenshots') ?? storage_path('laravel-console-dusk/screenshots') ;
+            Browser::$storeScreenshotsAt = $this->getPath($path);
+            $path = config('laravel-console-dusk.paths.log') ?? storage_path('laravel-console-dusk/log') ;
+            Browser::$storeConsoleLogAt = $this->getPath($path);
 
             Command::macro('browse', function ($callback) use ($manager) {
                 $manager->browse($this, $callback);

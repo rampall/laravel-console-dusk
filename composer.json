@@ -1,16 +1,26 @@
 {
-    "name": "nunomaduro/laravel-console-dusk",
+    "name": "rampall/laravel-console-dusk",
     "description": "Laravel Console Dusk allows the usage of Laravel Dusk in Laravel/Laravel Zero artisan commands.",
-    "keywords": ["console", "command-line", "php", "cli", "laravel-zero", "laravel", "Laravel Dusk", "artisan", "symfony"],
+    "keywords": [
+        "console",
+        "command-line",
+        "php",
+        "cli",
+        "laravel-zero",
+        "laravel",
+        "Laravel Dusk",
+        "artisan",
+        "symfony"
+    ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/nunomaduro/laravel-console-dusk/issues",
-        "source": "https://github.com/nunomaduro/laravel-console-dusk"
+        "issues": "https://github.com/rampall/laravel-console-dusk/issues",
+        "source": "https://github.com/rampall/laravel-console-dusk"
     },
     "authors": [
         {
             "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "email": "rameshpallikara@gmail.com"
         }
     ],
     "require": {
@@ -18,11 +28,11 @@
         "laravel/dusk": "^5.11|^6.0",
         "illuminate/console": "^6.0|^7.0|^8.0",
         "illuminate/support": "^6.0|^7.0|^8.0",
-        "nunomaduro/laravel-console-task": "^1.5"
+        "rampall/laravel-console-task": "^1.5"
     },
     "autoload": {
         "psr-4": {
-            "NunoMaduro\\LaravelConsoleDusk\\": "src/"
+            "RamPall\\LaravelConsoleDusk\\": "src/"
         }
     },
     "config": {
@@ -32,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NunoMaduro\\LaravelConsoleDusk\\LaravelConsoleDuskServiceProvider"
+                "RamPall\\LaravelConsoleDusk\\LaravelConsoleDuskServiceProvider"
             ]
         }
     },

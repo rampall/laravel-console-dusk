@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace NunoMaduro\LaravelConsoleDusk;
+namespace RamPall\LaravelConsoleDusk;
 
 use Illuminate\Console\Command;
 use Laravel\Dusk\Browser;
 use Laravel\Dusk\Concerns\ProvidesBrowser;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
-use NunoMaduro\LaravelConsoleDusk\Contracts\ConsoleBrowserFactoryContract;
-use NunoMaduro\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
+use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
+use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserFactoryContract;
+use RamPall\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
 
 class ConsoleBrowserFactory implements ConsoleBrowserFactoryContract
 {
