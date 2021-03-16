@@ -10,7 +10,7 @@
 
 ## About Laravel Console Dusk
 
-Laravel Console Dusk was created by, and is maintained by [Nuno Maduro](https://github.com/rampall), and allows the usage of [Laravel Dusk](https://github.com/laravel/dusk) in Laravel/Laravel Zero artisan commands.
+Laravel Console Dusk was created by, and is maintained by [Ramesh Pallikara](https://github.com/rampall), and allows the usage of [Laravel Dusk](https://github.com/laravel/dusk) in Laravel/Laravel Zero artisan commands.
 
 ## Installation
 
@@ -71,7 +71,7 @@ Check how use [Laravel Dusk here](https://github.com/laravel/dusk).
 
 Thank you for considering to contribute to Laravel Console Dusk. All the contribution guidelines are mentioned [here](CONTRIBUTING.md).
 
-You can have a look at the [CHANGELOG](CHANGELOG.md) for constant updates & detailed information about the changes. You can also follow the twitter account for latest announcements or just come say hi!: [@rameshpallikara](https://twitter.com/rameshpallikara)
+You can have a look at the [CHANGELOG](CHANGELOG.md) for constant updates & detailed information about the changes. You can also follow the twitter account for latest announcements or just come say hi!: [@erampall](https://twitter.com/erampall)
 
 ## Support the development
 **Do you like this project? Support it by donating**

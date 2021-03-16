@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.9.0] - 2020-12-07
 
 ### Added
-- Support for PHP 8 ([#22](https://github.com/nunomaduro/laravel-console-dusk/pull/22))
+- Support for PHP 8 ([#22](https://github.com/rampall/laravel-console-dusk/pull/22))
 
 ## [1.8.0] - 2020-09-01
 
@@ -55,11 +55,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.0] - 2018-10-03
 ### Added
-- Configuration file [#8](https://github.com/nunomaduro/laravel-console-dusk/pull/8)
+- Configuration file [#8](https://github.com/rampall/laravel-console-dusk/pull/8)
 
 ## [1.0.5] - 2018-08-27
 ### Fixes
-- Error `Class 'NunoMaduro\LaravelConsoleDusk\ConsoleBrowser﻿' not found`.
+- Error `Class 'RamPall\LaravelConsoleDusk\ConsoleBrowser﻿' not found`.
 
 ## [1.0.4] - 2018-08-26
 ### Added

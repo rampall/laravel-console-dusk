@@ -25,10 +25,8 @@ class LaravelConsoleDuskServiceProvider extends ServiceProvider
             $manager = resolve(ManagerContract::class);
 
             Browser::$baseUrl = config('app.url');
-            $path = config('laravel-console-dusk.paths.screenshots') ?? storage_path('laravel-console-dusk/screenshots') ;
-            Browser::$storeScreenshotsAt = $this->getPath($path);
-            $path = config('laravel-console-dusk.paths.log') ?? storage_path('laravel-console-dusk/log') ;
-            Browser::$storeConsoleLogAt = $this->getPath($path);
+            Browser::$storeScreenshotsAt = $this->getPath('laravel-console-dusk/screenshots');
+            Browser::$storeConsoleLogAt = $this->getPath('laravel-console-dusk/log');
 
             Command::macro('browse', function ($callback) use ($manager) {
                 $manager->browse($this, $callback);

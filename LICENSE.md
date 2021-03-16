@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Nuno Maduro <rameshpallikara@gmail.com>
+Copyright (c) Ramesh Pallikara <rameshpallikara@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
