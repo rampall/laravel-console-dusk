@@ -8,7 +8,7 @@ use Closure;
 use Facebook\WebDriver\Chrome\ChromeOptions;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
-use Laravel\Dusk\Chrome\SupportsChrome;
+use Rampall\Dusk\Chrome\SupportsChrome;
 use RamPall\LaravelConsoleDusk\Contracts\Drivers\DriverContract;
 
 class Chrome implements DriverContract

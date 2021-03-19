@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace RamPall\LaravelConsoleDusk;
 
 use Illuminate\Console\Command;
-use Laravel\Dusk\Browser;
-use Laravel\Dusk\Concerns\ProvidesBrowser;
+use Rampall\Dusk\Browser;
+use Rampall\Dusk\Concerns\ProvidesBrowser;
 use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
 use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserFactoryContract;
 use RamPall\LaravelConsoleDusk\Contracts\Drivers\DriverContract;

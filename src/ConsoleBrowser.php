@@ -6,7 +6,7 @@ namespace RamPall\LaravelConsoleDusk;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Laravel\Dusk\Browser;
+use Rampall\Dusk\Browser;
 use RamPall\LaravelConsoleDusk\Contracts\ConsoleBrowserContract;
 
 class ConsoleBrowser implements ConsoleBrowserContract

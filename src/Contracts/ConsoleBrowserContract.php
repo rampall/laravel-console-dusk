@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace RamPall\LaravelConsoleDusk\Contracts;
 
-use Laravel\Dusk\Browser;
+use Rampall\Dusk\Browser;
 
 interface ConsoleBrowserContract
 {

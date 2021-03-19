@@ -7,8 +7,8 @@ namespace RamPall\LaravelConsoleDusk;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Dusk\Browser;
-use Laravel\Dusk\Console\ChromeDriverCommand;
+use Rampall\Dusk\Browser;
+use Rampall\Dusk\Console\ChromeDriverCommand;
 use RamPall\LaravelConsoleDusk\Contracts\ManagerContract;
 
 class LaravelConsoleDuskServiceProvider extends ServiceProvider
