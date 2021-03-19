@@ -28,7 +28,7 @@
         "laravel/dusk": "^5.11|^6.0",
         "illuminate/console": "^6.0|^7.0|^8.0",
         "illuminate/support": "^6.0|^7.0|^8.0",
-        "rampall/laravel-console-task": "^1.5"
+        "rampall/laravel-console-task": "0.0.1"
     },
     "autoload": {
         "psr-4": {
